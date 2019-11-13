@@ -10,7 +10,7 @@ class fxpredict:
         self.currfrom = str(currfrom).upper()
         self.currto = str(currto).upper()
         self.datestr = datestr
-        self.validcurrencies = ['USD', 'AUD', 'BGN', 'BRL', 'CHF', 'CNY', 'DKK', 'HRK', 'MYR', 'NOK', 'NZD', 'PLN', 'RON']
+        self.validcurrencies = ['USD', 'AUD', 'BGN', 'BRL', 'CHF', 'CNY', 'DKK', 'HRK', 'MYR', 'NOK', 'NZD', 'PLN', 'RON', 'CAD']
         self.convertdate()
         self.getprediction()
         
@@ -54,7 +54,7 @@ class fxpredict:
 
 
 testdate = '2011-08-01'
-testvalidcurrencies = ['USD', 'AUD', 'BGN', 'BRL', 'CHF', 'CNY', 'DKK', 'HRK', 'MYR', 'NOK', 'NZD', 'PLN', 'RON']
+testvalidcurrencies = ['USD', 'AUD', 'BGN', 'BRL', 'CHF', 'CNY', 'DKK', 'HRK', 'MYR', 'NOK', 'NZD', 'PLN', 'RON', 'CAD']
 
 for currfrom in testvalidcurrencies:
     for currto in testvalidcurrencies:
